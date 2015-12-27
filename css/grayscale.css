@@ -123,7 +123,7 @@ a:focus {
 
     .top-nav-collapse {
         padding: 0;
-        background-color: #000;
+        background-color: #219ab3;
     }
 
     .navbar-custom.top-nav-collapse {
@@ -263,6 +263,9 @@ a:focus {
     background-size: cover;
     -o-background-size: cover;
 }
+.download-custom h2 {
+    color: #000;
+}
 
 #map {
     width: 100%;
@@ -306,6 +309,20 @@ a:focus {
     outline: 0;
     color: #000;
     background-color: #219ab3;
+}
+
+.btn-download {
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: transparent;
+}
+
+.btn-download:hover,
+.btn-download:focus {
+    border: 1px solid #000;
+    outline: 0;
+    color: #219ab3;
+    background-color: #000;
 }
 
 ul.banner-social-buttons {
